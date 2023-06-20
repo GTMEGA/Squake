@@ -1,0 +1,17 @@
+// Add any additional repositories for your dependencies here
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "forge"
+        url = "http://files.minecraftforge.net/maven"
+    }
+    maven {
+        name = "sonatype"
+        url = "https://oss.sonatype.org/content/repositories/snapshots/"
+    }
+    maven {
+        name = "FP jenkins mirror"
+        url = "https://mvn.falsepattern.com/usrv/"
+    }
+}

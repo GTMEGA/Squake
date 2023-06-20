@@ -1,10 +1,10 @@
 [
 {
-  "modid": "Squake",
-  "name": "Squake",
+  "modid": "${modId}",
+  "name": "${modName}",
   "description": "Quake-style movement in Minecraft.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "version": "${modVersion}",
+  "mcversion": "${minecraftVersion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["squeek"],
