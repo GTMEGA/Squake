@@ -1,5 +1,11 @@
 // Add your dependencies here
 
 dependencies {
-    compile("com.github.GTNewHorizons:Player-API:1.4.2:dev")
+    compileOnly("org.projectlombok:lombok:1.18.28") {
+        transitive = false
+    }
+    annotationProcessor("org.projectlombok:lombok:1.18.28")
+
+    compileOnly("com.falsepattern:falsepatternlib-mc1.7.10:1.0.1:dev")
+    runtimeOnly("com.falsepattern:falsepatternlib-mc1.7.10:1.0.1:api")
 }

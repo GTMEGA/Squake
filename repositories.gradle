@@ -11,6 +11,10 @@ repositories {
         url = "https://oss.sonatype.org/content/repositories/snapshots/"
     }
     maven {
+        name = "mavenpattern"
+        url = "https://mvn.falsepattern.com/releases/"
+    }
+    maven {
         name = "FP jenkins mirror"
         url = "https://mvn.falsepattern.com/usrv/"
     }

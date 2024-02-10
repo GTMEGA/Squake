@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "squeek.quakemovement.mixin.mixins",
+  "plugin": "squeek.quakemovement.mixin.plugin.MixinPlugin",
+  "refmap": "mixins.Squake.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8"
+}
+
